@@ -1,20 +1,22 @@
 * {
     outline: 1px black solid;
 }
+
 body {
     font-family: 'Courier New', Courier, monospace;
 }
+
 header {
     background-color: #1CED66;
     color: black;
     text-align: center;
     text-shadow: 3px 3px 3px white;
 }
+
 nav {
 
 }
+
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    list-style-type: none;
 }
