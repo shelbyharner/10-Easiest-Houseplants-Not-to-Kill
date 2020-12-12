@@ -10,3 +10,9 @@ header {
     text-align: center;
     text-shadow: 3px 3px 3px white;
 }
+nav {
+
+}
+nav ul {
+    list-style: none;
+}
