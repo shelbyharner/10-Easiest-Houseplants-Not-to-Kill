@@ -1,3 +1,6 @@
 * {
     outline: 1px black solid;
 }
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
