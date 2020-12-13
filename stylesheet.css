@@ -29,6 +29,7 @@ nav ul li {
 a:link {
     text-decoration: none;
     font-weight: bold;
+    color: black;
 }
 
 main {
@@ -39,6 +40,10 @@ main {
     column-count: 2;
     float: left;
     margin: 15px;
+}
+
+article {
+    
 }
 
 img {
