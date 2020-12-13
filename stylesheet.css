@@ -43,5 +43,6 @@ img {
 
 p {
    font-size: 15px;
-   text-align: left
+   text-align: left; 
+   display: inline-block;
 }
