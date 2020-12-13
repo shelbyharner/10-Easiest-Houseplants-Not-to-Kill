@@ -34,3 +34,7 @@ main {
     column-count: 2;
     float: left;
 }
+
+img {
+    float: left;
+}
