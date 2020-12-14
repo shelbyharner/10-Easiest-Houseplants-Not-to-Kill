@@ -1,3 +1,5 @@
+
+//Display greeting based on current time
 var today = new Date();
 var hourNow = today.getHours();
 var greeting; 
@@ -11,6 +13,5 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-
-document.write('<h2>' + greeting + '</h2>');
+document.write(greeting);
 
