@@ -15,3 +15,17 @@ if (hourNow > 18) {
 }
 document.write('<h3>' + greeting + '</h3>');
 
+var promptQuestion = "What is your favorite houseplant?";
+var response = prompt(promptQuestion);
+
+var alertMessage;
+
+if (response === "Snake Plant") {
+    alertMessage = "What a beautiful plant!";
+} else if (response === "Pothos Plant") {
+    alertMessage = "Great choice!";
+} else if (response === "Prayer Plant") {
+    alertMessage = "That's my favorite too!";
+} else {
+    alertMessage = "All houseplants need love!"
+}
