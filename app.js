@@ -20,7 +20,7 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-document.write(greeting);
+document.getElementById("web-greeting").innerHTML = greeting;
 
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
@@ -38,3 +38,4 @@ if (response === "Snake Plant") {
     alertMessage = "All houseplants need love!"
 }
 alert(alertMessage);
+
