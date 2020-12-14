@@ -29,3 +29,4 @@ if (response === "Snake Plant") {
 } else {
     alertMessage = "All houseplants need love!"
 }
+alert(alertMessage);
