@@ -9,7 +9,7 @@ console.log(myVariableName);
 //Display greeting based on current time
 var today = new Date();
 var hourNow = today.getHours();
-var greeting; 
+var greeting;
 
 if (hourNow > 18) {
     greeting = 'Good evening!';
