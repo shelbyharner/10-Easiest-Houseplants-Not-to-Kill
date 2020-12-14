@@ -1,3 +1,10 @@
+console.log("Greetings Earthlings");
+
+var myVariableName = "Greetings Earthlings";
+console.log(myVariableName);
+
+myVariableName = "Farewell planet Earth";
+console.log(myVariableName);
 
 //Display greeting based on current time
 var today = new Date();
@@ -17,6 +24,7 @@ document.write('<h3>' + greeting + '</h3>');
 
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
+console.log(response);
 
 var alertMessage;
 
