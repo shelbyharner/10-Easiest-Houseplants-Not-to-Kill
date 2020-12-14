@@ -20,7 +20,7 @@ if (hourNow > 18) {
 } else {
     greeting = 'Welcome!';
 }
-document.write('<h3>' + greeting + '</h3>');
+document.write(greeting);
 
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
