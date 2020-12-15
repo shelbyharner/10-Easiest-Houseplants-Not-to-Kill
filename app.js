@@ -27,6 +27,7 @@ function sayGreeting(hourNow) {
 
 sayGreeting(hourNow);
 
+//Pop up question to users visiting my page
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
 console.log(response);
