@@ -32,13 +32,6 @@ a:link {
     color: black;
 }
 
-.navhighlight a {
-    float: left;
-    display: block; 
-    color: yellow;
-    text-align: center;
-}
-
 .navhighlight a.active {
     background-color: #1CED66;
     color: yellow;
