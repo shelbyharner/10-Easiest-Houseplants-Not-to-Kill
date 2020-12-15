@@ -30,20 +30,23 @@ sayGreeting(hourNow);
 //Pop up question to users visiting my page
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
+var alertMessage;
 console.log(response);
 
-var alertMessage;
-
-if (response === "snake plant") {
-    alertMessage = "What a beautiful plant!";
-} else if (response === "pothos plant") {
-    alertMessage = "Great choice!";
-} else if (response === "prayer plant") {
-    alertMessage = "That's my favorite too!";
-} else {
-    alertMessage = "All houseplants need love!"
+function promptUser(alertMessage) {
+    if (alertMessage === "snake plant") {
+        response = "What a beautiful plant!";
+    } else if (alertMessage === "pothos plant") {
+        response = "Great choice!";
+    } else if (alertMessage === "prayer plant") {
+        response = "That's my favorite too!";
+    } else {
+        response = "All houseplants need love!"
+    }
+    alert(response);
 }
-alert(alertMessage);
+
+promptUser(response);
 
 //Add highlight hover over color change to nav bar
 function navAction () {
