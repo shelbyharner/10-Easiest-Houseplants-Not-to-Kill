@@ -39,6 +39,11 @@ a:link {
     text-align: center;
 }
 
+.navhighlight a.active {
+    background-color: #1CED66;
+    color: yellow;
+}
+
 main {
     width: 100%;
     color: #2DD1FA;
