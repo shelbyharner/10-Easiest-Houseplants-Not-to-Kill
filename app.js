@@ -39,5 +39,12 @@ if (response === "snake plant") {
 }
 alert(alertMessage);
 
-
+function navAction () {
+    var navHighlight = document.getElementById("navHighlight");
+    if (navHighlight.className === "active") {
+        navHighlight.className += " responsive";
+    } else {
+        navHighlight.className = "topnav";
+    }
+}
 
