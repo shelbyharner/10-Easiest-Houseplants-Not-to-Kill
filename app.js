@@ -12,20 +12,20 @@ var hourNow = today.getHours();
 var greeting;
 
 function sayGreeting(hourNow) {
+    if (hourNow > 18) {
+        greeting = 'Good evening!';
+    } else if (hourNow > 12) {
+        greeting = 'Good afternoon!';
+    } else if (hourNow > 0) {
+        greeting = 'Good morning!';
+    } else {
+        greeting = 'Welcome!';
+    }
 
-if (hourNow > 18) {
-    greeting = 'Good evening!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
-} else if (hourNow > 0) {
-    greeting = 'Good morning!';
-} else {
-    greeting = 'Welcome!';
-}
-document.getElementById("web-greeting").innerHTML = greeting;
+    document.getElementById("web-greeting").innerHTML = greeting;
 }
 
-sayGreeting(greeting);
+sayGreeting(hourNow);
 
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
