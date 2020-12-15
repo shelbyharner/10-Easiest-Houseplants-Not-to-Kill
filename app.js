@@ -39,16 +39,5 @@ if (response === "snake plant") {
 }
 alert(alertMessage);
 
-var mouseOver
-var mouseOut
 
-document.getElementById("Plant Facts").addEventListener("mouseOver", mouseOver);
-document.getElementById("Plant Facts").addEventListener("mouseOut", mouseOut);
-
-function mouseOver() {
-    document.getElementById("Plant Facts").style.color = red
-}
-function mouseOut() {
-    document.getElementById("Plant Facts").style.color = black
-}
 
