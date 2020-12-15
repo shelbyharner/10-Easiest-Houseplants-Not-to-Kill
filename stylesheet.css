@@ -34,7 +34,7 @@ a:link {
 
 .navhighlight a {
     float: left;
-    display; block; 
+    display: block; 
     color: yellow;
     text-align: center;
 }
@@ -48,10 +48,6 @@ main {
     column-count: 2;
     float: left;
     margin: 15px;
-}
-
-article {
-    
 }
 
 img {
