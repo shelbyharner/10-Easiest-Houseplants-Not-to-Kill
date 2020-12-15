@@ -11,6 +11,8 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
+function sayGreeting(hourNow) {
+
 if (hourNow > 18) {
     greeting = 'Good evening!';
 } else if (hourNow > 12) {
@@ -21,6 +23,9 @@ if (hourNow > 18) {
     greeting = 'Welcome!';
 }
 document.getElementById("web-greeting").innerHTML = greeting;
+}
+
+sayGreeting(greeting);
 
 var promptQuestion = "What is your favorite houseplant?";
 var response = prompt(promptQuestion);
