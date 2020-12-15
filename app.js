@@ -29,7 +29,8 @@ sayGreeting(hourNow);
 
 //Pop up question to users visiting my page
 var promptQuestion = "What is your favorite houseplant?";
-var response = prompt(promptQuestion);
+response = prompt(promptQuestion);
+response = response.toLowerCase
 var alertMessage;
 console.log(response);
 
