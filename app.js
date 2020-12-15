@@ -28,11 +28,11 @@ console.log(response);
 
 var alertMessage;
 
-if (response === "Snake Plant") {
+if (response === "snake plant") {
     alertMessage = "What a beautiful plant!";
-} else if (response === "Pothos Plant") {
+} else if (response === "pothos plant") {
     alertMessage = "Great choice!";
-} else if (response === "Prayer Plant") {
+} else if (response === "prayer plant") {
     alertMessage = "That's my favorite too!";
 } else {
     alertMessage = "All houseplants need love!"
