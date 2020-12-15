@@ -28,9 +28,18 @@ nav ul li {
 }
 
 a:link {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5px 5px;
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+.navhighlight a:hover {
+    background-color: #1CED66;
+    color: yellow;
 }
 
 .navhighlight a.active {
