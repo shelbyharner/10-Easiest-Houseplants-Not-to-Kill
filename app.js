@@ -9,12 +9,24 @@ console.log(myVariableName);
 function  validateUserPassword() {
     var storedPassword = "yes";
     var yesOrNo; 
+    
     do  {
         yesOrNo = prompt("Do you love houseplants? Yes or  No?");
+        yesOrNo = yesOrNo.toLowerCase();
     }while(yesOrNo !== storedPassword);
 }
 
 validateUserPassword();
+
+function addWatercanToDocument() {
+    var numberOfWatercan = prompt("How many watering cans do you want?");
+    for (var i = 0; i < numberOfWatercan; i++) {
+        document.write("<img src=\"water_can.jpg\">");
+    }
+}
+
+addWatercanToDocument();
+
 
 //Display greeting based on current time
 var today = new Date();
