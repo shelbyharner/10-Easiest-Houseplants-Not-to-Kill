@@ -6,6 +6,16 @@ console.log(myVariableName);
 myVariableName = "Farewell planet Earth";
 console.log(myVariableName);
 
+function  validateUserPassword() {
+    var storedPassword = "yes";
+    var yesOrNo; 
+    do  {
+        yesOrNo = prompt("Do you love houseplants? Yes or  No?");
+    }while(yesOrNo !== storedPassword);
+}
+
+validateUserPassword();
+
 //Display greeting based on current time
 var today = new Date();
 var hourNow = today.getHours();
