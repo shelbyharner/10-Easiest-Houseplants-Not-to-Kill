@@ -58,9 +58,10 @@ main {
     margin: 15px;
 }
 
-img {
+main img {
     float: left;
     padding: 5px;
+    width: 70px;
 }
 
 p {
