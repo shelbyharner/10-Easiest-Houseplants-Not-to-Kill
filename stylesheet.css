@@ -37,14 +37,8 @@ a:link {
     color: black;
 }
 
-.navHighlight a:hover {
-    background-color: #1CED66;
-    color: yellow;
-}
-
-.navHighlight a.active {
-    background-color: #1CED66;
-    color: black;
+li:hover {
+    background-color: yellow;
 }
 
 main {
