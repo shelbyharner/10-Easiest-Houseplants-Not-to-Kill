@@ -37,12 +37,12 @@ a:link {
     color: black;
 }
 
-.navhighlight a:hover {
+.navHighlight a:hover {
     background-color: #1CED66;
     color: yellow;
 }
 
-.navhighlight a.active {
+.navHighlight a.active {
     background-color: #1CED66;
     color: black;
 }
