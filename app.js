@@ -72,7 +72,7 @@ function promptUser(alertMessage) {
 promptUser(response);
 
 //Add highlight hover over color change to nav bar
-function navAction () {
+function navAction() {
     var navHighlight = document.getElementById("navHighlight");
     if (navHighlight.className === "active") {
         navHighlight.className += "responsive";
